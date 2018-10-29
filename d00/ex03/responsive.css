@@ -1,0 +1,75 @@
+html, body {
+	background: #333;
+	font-family: Arial, sans-serif;	
+}
+img{
+	height: 50%;
+}
+header{
+	text-align: center;
+	font-size: 4uw;
+	color: #fff;
+	}
+			table{
+			}
+			td{
+				width: 5.5%;
+				heigth: 10%;
+				color: #000;
+				text-align: center;
+			}
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container>div {
+	  margin: 2%;
+	  text-align: center;
+}
+
+.transparent{
+	border: none ;
+}
+.metoalter{
+	background: rgb(255, 223, 145);
+}
+.metalo{
+	background: rgb(146, 255, 159);
+}
+.metoal{
+	background: rgb(255, 197, 145);
+}
+.nonmeto{
+	background: rgb(171, 145, 255);
+}
+.gaznob{
+	background: rgb(145, 223, 255);
+}
+.autre{
+	background: rgb(255, 249, 145);
+}
+.halo{
+	background: rgb(249, 145, 255);
+}
+.metotrans{
+	background: rgb(236, 255, 145);
+}
+.lanthan{
+	background: rgb(210, 255, 145);
+}
+.actinide{
+	background: rgb(184, 255, 145);
+}
+.masse{
+	text-align: right;
+	font-size: 2%;
+}
+.elem{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2uw;
+}
+.num{
+	text-align: left;
+}

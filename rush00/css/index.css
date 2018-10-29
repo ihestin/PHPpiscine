@@ -1,0 +1,181 @@
+body
+{
+	background-color: #ecf0f1;
+}
+
+
+header
+{
+	background-color: #2980b9;
+	top: 0px;
+	left: 0%;
+	right: 0%;
+}
+
+header ul
+{
+	list-style: none;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+header ul li
+{
+	display: inline-block;
+	position: relative;
+	height: 5%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+.menucat ul
+{
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+
+.menucat ul.niveau1
+{
+      margin: 0 auto;
+    width: 1330px;
+}
+
+.menucat  .niveau1 li
+{
+    float: left;
+    width: 150px;
+    position: relative;
+    z-index: 5;
+}
+
+#main {
+	margin-top: 10rem;
+}
+
+.menucat ul.niveau2
+{
+    border: 1px solid grey;
+    display: none;
+    left: -2px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+ 	top: 49px;
+}
+
+.categorie {
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.menucat li:hover 
+{    
+}
+.menucat li:hover ul.niveau2, li li:hover ul.niveau3
+{
+        display: block;
+}
+
+.menu01, .menu01 .niveau2
+{
+cursor:pointer;
+background: #2980b9;
+}
+
+.menu
+{
+	width: 10vw;
+}
+
+.menu:hover
+{
+	background-color: #3498db;
+}
+
+#home
+{
+	width: 20vw;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0%;
+	background-color: #2980b9;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #2c3e50;
+	text-decoration: underline;
+}
+
+article
+{
+	background-color: #bdc3c7;
+	border-radius: 16px;
+}
+
+
+ul.presentation
+{
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+}
+
+ul.presentation li
+{
+	position: relative;
+	display: inline-block;
+}
+
+ul.presentation li a span
+{
+	font-size: 16px;
+}
+
+ul.presentation li a img
+{
+	width: 15vw;
+}
+
+h1
+{
+	font-size: 4vmin;
+	text-decoration: underline;
+}
+
+.button
+{
+	background-color: #2980b9;
+	vertical-align: middle;
+	border-radius: 6px;
+	border: none;
+}
+
+.button span
+{
+	font-size: 2vmin;
+	color: white;
+}
+
+.button:hover
+{
+	background-color: #3498db;
+	cursor: pointer;
+}
+
+td {
+	text-align: center;
+}

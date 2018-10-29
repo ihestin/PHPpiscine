@@ -1,0 +1,1 @@
+SELECT titre, resum from film WHERE lower(resum) LIKE '%vincent%' ORDER BY id_film;

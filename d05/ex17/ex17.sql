@@ -1,0 +1,1 @@
+SELECT count(*) AS 'nb_abo', TRUNCATE(AVG(prix),0) 'moy_abo', MOD(SUM(duree_abo),42) as 'ft' FROM abonnement;
